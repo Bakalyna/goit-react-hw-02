@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import Description from './components/Description/Description';
 import Options from './components/Options/Options';
 import Feedback from './components/Feedback/Feedback';
-import Notifications from './components/Notifications/Notifications';
+import Notification from './components/Notification/Notification';
 import './App.css';
 
 function App() {
@@ -49,7 +49,7 @@ function App() {
           positiveFeedback={positiveFeedback}
         />
       ) : (
-        <Notifications />
+        <Notification />
       )}
     </>
   );
